@@ -1,0 +1,78 @@
+.main-container-todo-item {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-container-todo-item div:nth-child(1) {
+	/* border: 1px solid black; */
+	overflow: hidden;
+}
+
+.todo-item {
+	/* border: 1px solid black; */
+	margin: 10px;
+	color: rgb(0, 0, 0);
+	padding: 20px;
+	color: yellowgreen;
+	background-color: white;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 20px;
+	letter-spacing: 0.5px;
+}
+
+.todo-item-done {
+	margin: 10px;
+	color: rgb(0, 0, 0);
+	padding: 20px;
+	color: grey;
+	background-color: unset;
+	/* background-color: rgba(47, 47, 46, 0.321); */
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 20px;
+	letter-spacing: 0.5px;
+	text-decoration: line-through;
+	border: 2px solid grey;
+	/* opacity: 0.5 */
+}
+
+/* style for delete button */
+.delete-outline-icon {
+	cursor: pointer;
+	margin-right: 8px;
+	/* color: grey; */
+}
+
+.delete-outline-icon:hover{
+	color:red;
+}
+
+.task-alt-icon {
+	color: grey;
+	cursor: pointer;
+	/* transition: transform 0.3s; */
+}
+.task-alt-icon:hover{
+	color: yellowgreen;
+	/* transform: scale(1.3); */
+}
+
+.reply-icon {
+	color: grey;
+	cursor: pointer;
+	/* transition: transform 10s; */
+}
+.reply-icon:hover{
+	color: white;
+	/* transform: scale(1.8); */
+}
+
+/* Стили для блока, где находится иконка внутри todo и текст */
+.ritodofill-todoText-box {
+	display: flex;
+	align-items: center;
+}
+.ritodofill-todoText-box > div {
+	margin-left: 8px;
+}
